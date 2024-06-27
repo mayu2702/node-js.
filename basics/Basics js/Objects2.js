@@ -55,3 +55,31 @@ console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLogged'));
 
+
+const course = {
+    coursename : "C Programming",
+    price : "999",
+    CourseInstructor :"mayur"
+
+}
+
+const {CourseInstructor :Instructor } = course
+
+console.log(Instructor);   //destrcuture of object 
+
+const navbar = () => {
+
+}
+navbar(company = "mayur")
+
+{
+    "name" :"mayur",
+    "coursename" : "java",   //api's
+    "price" : "free"
+}
+
+[
+    {},
+    {},
+    {}
+]
